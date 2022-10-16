@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onLocationChanged(Location location) {
                 latitude = location.getLatitude();
-                longitude = location.getLongitude();
                 String s =
                         String.format(
                                 Locale.getDefault(),
