@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 String s =
                         String.format(
                                 Locale.getDefault(),
-                                "Lat: %f, top Lon: %f",
+                                "Lat: %f, Lon: %f",
                                 latitude,
                                 longitude);
                 locationManager
