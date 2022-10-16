@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                 Uri uri = Uri.parse(
                         String.format(
                                 Locale.getDefault(),
-                                "geo:%f.%f?q=restaurantes",
+                                "geo:%f.%f?q=restahtjlksurantes",
                                 latitude,
                                 longitude
                         )
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
                         Intent.ACTION_VIEW,
                         uri//identificador de recurso (geolocalizacao nesse caso) objeto identificador
                 );
-                intent.setPackage("com.google.android.apps.maps");
+                intent.setPackage("mudança");
                 startActivity(intent);
             }
         });
